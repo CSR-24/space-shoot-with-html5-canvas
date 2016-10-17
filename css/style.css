@@ -1,0 +1,37 @@
+#gameDiv {
+  position: relative;
+  width: 900px;
+  height: 520px;
+  background: black;
+  margin: auto;
+}
+#gameOver {
+  position: absolute;
+  width: 900px;
+  height: 530px;
+  top: 0px;
+  background: black;
+  text-align: center;
+  line-height: 530px;
+  color: lightblue;
+  font-family: 'Arial';
+  font-size: 20px;
+}
+#ballCanvas {
+  background: url("http://cloud-3.steamusercontent.com/ugc/720918725566294424/FCD5ECFE932139A7886585ECCBCA6586C6FF6E4A/");
+  width: 900px;
+  height: 520px;
+  background-size: 900px 520px;
+}
+#scoreBoard {
+  position: absolute;
+  width: 900px;
+  height: 50px;
+  top: 520px;
+  background: black;
+  text-align: center;
+  line-height: 50px;
+  color: lightblue;
+  font-family: 'Arial';
+  font-size: 20px;
+}
